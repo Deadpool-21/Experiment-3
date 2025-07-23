@@ -3,6 +3,7 @@ Aim : To study and implement Operators in C++
 Software Used : VS Code
 
 
+2) Theory 
 This experiment is divided into two parts:
 
 A. Operator Demonstration
@@ -65,7 +66,8 @@ Quadrant IV: x > 0 && y < 0
 
 This part demonstrates the importance of conditional logic in real-world scenarios.
 
-3. Algorithm
+3) Algorithm
+   
 Part A: Arithmetic, Relational & Logical Operators
 Start the program.
 
@@ -102,7 +104,7 @@ If x > 0 && y < 0 → Print "Fourth Quadrant".
 
 End the program.
 
-4. Procedure
+4) Procedure
 Create a new C++ source file.
 
 Include the necessary header file (#include <iostream>) and use the std namespace.
@@ -131,24 +133,8 @@ Compile and run the program.
 
 Observe and analyze the output.
 
-5. Sample Output Observation
-Arithmetic results will show standard mathematical outputs.
 
-Relational operators will return 0 (false) or 1 (true).
-
-Logical operators will demonstrate combined condition results.
-
-The coordinate logic will print messages like:
-
-"Origin"
-
-"On X-axis"
-
-"On Y-axis"
-
-"First Quadrant" etc., based on the values of x and y.
-
-6. Conclusion
+5) Conclusion
 This experiment provided hands-on understanding of various fundamental C++ operators and conditional logic. It illustrated:
 
 How arithmetic operations are performed and displayed.
