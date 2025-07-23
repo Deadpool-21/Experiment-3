@@ -21,3 +21,11 @@ int main() {
 
   return 0;
 }
+
+Expected Output :- 
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2
+Is a greater than b? 1
+Is a > 0 and b > 0? 1
