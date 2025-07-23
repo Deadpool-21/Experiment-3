@@ -1,0 +1,64 @@
+NILAY BHATIA
+ENTC A3
+PRN :- 24070123063 
+
+#include <iostream>
+using namespace std;
+int main() {
+    float x, y;
+   
+    cout << "Enter the x coordinate: ";
+    cin >> x;
+   
+    cout << "Enter the y coordinate: ";
+    cin >> y;
+
+    if (x == 0 && y == 0) {
+        cout << "The point is at the Origin." << endl;
+    }
+    else if (x == 0) {
+        cout << "The point is on the Y-axis." << endl;
+    }
+    else if (y == 0) {
+        cout << "The point is on the X-axis." << endl;
+    }
+    else if (x > 0 && y > 0) {
+        cout << "The point is in the First Quadrant." << endl;
+    }
+    else if (x < 0 && y > 0) {
+        cout << "The point is in the Second Quadrant." << endl;
+    }
+    else if (x < 0 && y < 0) {
+        cout << "The point is in the Third Quadrant." << endl;
+    }
+    else {
+        cout << "The point is in the Fourth Quadrant." << endl;
+    }
+   
+    return 0;
+}
+
+
+
+Expected Output :-  
+
+Input: x = 0, y = 0
+Output: The point is at the Origin.
+
+Input: x = 0, y = 5
+Output: The point is on the Y-axis.
+
+Input: x = -4, y = 0
+Output: The point is on the X-axis.
+
+Input: x = 3, y = 2
+Output: The point is in the First Quadrant.
+
+Input: x = -2, y = 4
+Output: The point is in the Second Quadrant.
+
+Input: x = -5, y = -7
+Output: The point is in the Third Quadrant.
+
+Input: x = 6, y = -3
+Output: The point is in the Fourth Quadrant.
